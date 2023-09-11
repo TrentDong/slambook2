@@ -3,6 +3,7 @@
 #include <unistd.h>
 
 // 本例演示了如何画出一个预先存储的轨迹
+//若编译提示库找不到，可以执行 sudo ldconfig更新缓存库
 
 using namespace std;
 using namespace Eigen;
